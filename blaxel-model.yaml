@@ -1,0 +1,20 @@
+apiVersion: blaxel.ai/v1alpha1
+kind: Model
+metadata:
+  name: qwen-qwen3-vl-8b-instruct
+  displayName: Qwen/Qwen3-VL-8B-Instruct
+spec:
+  enabled: true
+  policies: []
+  flavors:
+    - name: nvidia-h100/x4
+      type: gpu
+  runtime:
+    model: Qwen/Qwen3-VL-8B-Instruct
+    type: hf_private_endpoint
+    image: ''
+    args: []
+    endpointName: qwenqwen3-vl-8b-instruct-nvidia-h100
+    organization: adamanz
+  integrationConnections:
+    - huggingface-4s2m2h

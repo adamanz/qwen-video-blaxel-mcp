@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "qwen3-video-blaxel": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/Users/adamanz/qwen-video-blaxel-mcp",
+        "run",
+        "server.py"
+      ],
+      "env": {
+        "BLAXEL_API_KEY": "your-blaxel-api-key",
+        "BLAXEL_MODEL": "qwen-qwen3-vl-8b-instruct"
+      }
+    }
+  }
+}
