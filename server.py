@@ -28,12 +28,12 @@ mcp = FastMCP("qwen3-video-understanding")
 # Configuration
 BLAXEL_API_URL = os.environ.get(
     "BLAXEL_API_URL",
-    "https://api.blaxel.ai/v1"
+    "https://run.blaxel.ai/simple/models/qwen-qwen3-vl-8b-instruct-3/v1"
 )
 BLAXEL_API_KEY = os.environ.get("BLAXEL_API_KEY", "")
 BLAXEL_MODEL = os.environ.get(
     "BLAXEL_MODEL",
-    "qwen-qwen3-vl-8b-instruct"
+    "Qwen/Qwen3-VL-8B-Instruct"
 )
 
 # Timeout settings
